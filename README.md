@@ -14,7 +14,7 @@ O JavaScript foi utilizado para implementar a função de quantidade nas página
 Clone o projeto
 
 ```bash
-  git clone (https://github.com/carvalhoJao/Projeto-veggood.git)https://github.com/carvalhoJao/Projeto-veggood.git
+  git clone https://github.com/carvalhoJao/Projeto-veggood.git
 ```
 
 Entre no diretório do projeto
