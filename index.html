@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Veggood | Home</title>
+        
+        <link rel="stylesheet" href="static/reset.css">
+        <link rel="stylesheet" href="static/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <header style="padding-top: 40px;">    
+            <a href="index.html">
+                <h2 class="home">Veggood</h2>
+            </a>
+            <a id="cadastro" href="templates/cadastro.html">
+                <img class="user"  src="static/fotos/user.png"><input type="button">
+            </a>
+            <div class="barraDePesquisa">
+                <form action="/resultadobusca" method="POST">
+                    <label>
+                        <span id="icone-pesquisa">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </span>
+                        <input type="search" placeholder="O que te dá fome?" name="pesquisa">
+                    </label>
+                </form>
+
+                <fieldset>
+                    <select>
+                        <option>Menor preço</option>
+                        <option>Maior preço</option>
+                        <option>Mais vendidos</option>
+                    </select>
+                </fieldset>
+            </div>
+            
+            <div class="caixa">
+                <nav>
+                    <ul>
+                        <li>Marmitas</li>
+                        <li>Lanches</li>
+                        <li>Bebidas</li>
+                        <li>Condimentos</li>
+                    </ul>
+                </nav> 
+            </div>
+                
+        </header>
+        
+        <main>
+            <ul class="bordaItem">
+                <li>
+                    <a href="templates/veggie-sabor.html">
+                        <img class="menu" src= "static/comidas/polenta-frita-para-espetinhos.jpg">
+                        <h2 class="tituloComida">Polenta Frita</h2>
+                        <p class="bordaItem-descricao">6 unidades</p>
+                        <p class="preco">R$ 8,99</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="templates/veggie-sabor.html">
+                        <img class="menu" src="static/comidas/brownie.jpg">
+                        <h2 class="tituloComida">Brownie Vegano</h2>
+                        <p class="bordaItem-descricao">Chocolate ao leite com gotas de cacau</p>
+                        <p class="preco">R$ 9,90</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="templates/veggie-sabor.html">
+                        <img class="menu" src="static/comidas/hamburguer.jpg">
+                        <h2 class="tituloComida">Hamburguer</h2>
+                        <p class="bordaItem-descricao">Pão de hamburguer, queijo vegano, 
+                            hamburguer de lentilha e soja, cebola caramelizada e presunto vegano</p>
+                        <p class="preco">R$ 25,90</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="templates/clube-vegano.html">
+                        <img class="menu" src="static/comidas/strogonoff-vegano.jpg">
+                        <h2 class="tituloComida">Strogonoff Vegano</h2>
+                        <p class="bordaItem-descricao">Castanha de caju, grão de bico, cogumelos, 
+                            cebola, alho, sal, azeite de oliva e arroz</p>
+                        <p class="preco">R$ 25,90</p>
+                    </a>
+                </li>
+
+                <!-- Segunda linha*************************** -->
+
+                <li>
+                    <a href="templates/clube-vegano.html">
+                        <img class="menu" src= "static/comidas/risoto-vegetariano.jpg">
+                        <h2 class="tituloComida">Risoto Veggie - 6 Porções</h2>
+                        <p class="bordaItem-descricao">Arroz integral, vagem, cenoura, ervilha, brócolis e couve-flor, 
+                            champignon inteiros, azeitonas verdes, pimentas, azeite, sal, orégano, tomilho, 
+                            manjericão roxo e cheiro-verde. 
+                        </p>
+                        <p class="preco">R$ 120,00</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="templates/clube-vegano.html">
+                        <img class="menu" src="static/comidas//sorbet-de-manga-com-gengibre.jpg">
+                        <h2 class="tituloComida">Sorbet de Manga com gengibre</h2>
+                        <p class="bordaItem-descricao">Manga, água, açúcar demerara, sumo de limão, gengibre</p>
+                        <p class="preco">R$ 15,00</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="templates/clube-vegano.html">
+                        <img class="menu" src="static/comidas/flan-de-chocolate.jpg">
+                        <h2 class="tituloComida">Flan de Chocolate - 600g</h2>
+                        <p class="bordaItem-descricao">Leite de aveia, açúcar mascavo peneirado, liquor de cacau picado, 
+                            fécula de batata, ágar-ágar, extrato de baunilha.</p>
+                        <p class="preco">R$ 17,00</p>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="templates/clube-vegano.html">
+                        <img class="menu" src="static/comidas/mousse-de-jabuticaba.jpg">
+                        <h2 class="tituloComida">Mousse de Jabuticaba</h2>
+                        <p class="bordaItem-descricao">Jabuticaba, leite de coco, amido de milho
+                            , açúcar cristal</p>
+                        <p class="preco">R$ 25,90</p>
+                    </a>
+                </li>
+                
+                <!-- ***************Nova linha****************** -->
+
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/pizza-vegana.jpg">
+                        <h2 class="tituloComida">Pizza Vegana</h2>
+                        <p class="bordaItem-descricao">Alho, azeite de oliva, tomates, sal, açúcar, orégano, manjericão seco, 
+                            fermento biológico, farinha de trigo, farinha de trigo integral, queijo vegano.</p>
+                        <p class="preco">R$55,00</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/sanduiche-integral-abacate.jpg">
+                        <h2 class="tituloComida">Sanduíche Integral com Abacate e Tomates</h2>
+                        <p class="bordaItem-descricao">Pão integral vegano, abacate, alho, cebolinha verde, tomate, 
+                            cebola roxa, pimentão, sal e pimenta, sumo de limão, alface, agrião, rúcula.</p>
+                        <p class="preco">R$24,50</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/salada-agridoce.jpg">
+                        <h2 class="tituloComida">Salada agridoce</h2>
+                        <p class="bordaItem-descricao">Repolho roxo, kiwis,tofu defumado</p>
+                        <p class="preco">R$12,50</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/panqueca-vegana.jpg">
+                        <h2 class="tituloComida">Panqueca Vegana</h2>
+                        <p class="bordaItem-descricao">Farinha de trigo, curry, sal, azeite,molho de tomate, fermento.</p>
+                        <p class="preco">R$28,00</p>
+                    </a>
+                </li>
+
+                <!-- **********Quarta Linha****************** -->
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/smoothie-banana.jpg">
+                        <h2 class="tituloComida">Smoothie de Banana</h2>
+                        <p class="bordaItem-descricao">Bananas, água de coco, farinha de aveia, aveia em flocos.</p>
+                        <p class="preco">R$18,00</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/vida-vegana.html">
+                        <img class="menu" src= "static/comidas/sopa-lentilha-cenoura.jpg">
+                        <h2 class="tituloComida">Sopa de Lentilhas com Cenoura</h2>
+                        <p class="bordaItem-descricao">Lentilhas, cebolas, tomate, cenoura, cebolinha verde, extrato de tomate, 
+                            páprica defumada, salsinha fresca, óleo, sal e pimenta do reino.</p>
+                        <p class="preco">R$27,99</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/veggie-sabor.html">
+                        <img class="menu" src= "static/comidas/macarrao-com-molho-branco.jpg">
+                        <h2 class="tituloComida">Massa Molho Branco de Amêndoas e Cogumelos</h2>
+                        <p class="bordaItem-descricao">Amêndoas, shimeji fresco, shiitake fresco, cebola, alho, 
+                            amido de milho, salsinha e cebolinha,noz moscada, pimenta do reino, castanha-do-pará, sal, macarrão.</p>
+                        <p class="preco">R$42,50</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="templates/veggie-sabor.html">
+                        <img class="menu" src= "static/comidas/sanduiche-vegano-beringela.jpg">
+                        <h2 class="tituloComida">Sanduíche com Berinjela e pimentão Assado</h2>
+                        <p class="bordaItem-descricao">Pimentões amarelos, pimentão vermelho, berinjela, azeite, sal, bife vegetal, mussarella vegana, pão Vegano.</p>
+                        <p class="preco">R$25,50</p>
+                    </a>
+                </li>
+
+                <!-- ******************Modelo para inserção******************
+                <li>
+                    <img class="menu" src= "static/comidas/polenta-frita-para-espetinhos.jpg">
+                    <h2 class="tituloComida"></h2>
+                    <p class="bordaItem-descricao"></p>
+                    <p class="preco">R$</p>
+                </li> -->
+
+            </ul>
+            
+        </main>
+        
+        <footer>
+            <div>
+                <ul class="sumario">
+                    <p class="pagSumario">Veggood</p>
+                    <li><strong><a href="index.html">Home</a></strong></li>
+                    <li><strong><a href="templates/contato.html">Contato</a></strong></li>
+                    <li><strong>Política de privacidade</strong></li>
+                    <li><strong><a href="templates/quemsomos.html">Quem somos</a></strong></li>
+                </ul>
+                <ul class="sumario">
+                    <p class="pagSumario">Social</p>
+                    
+                    <a href="https://www.facebook.com/somoseSales/"><img id="logoFinal" src="static/fotos/facebook_logo.png"></a>
+                    <a href="https://www.instagram.com/somosesales/"><img id="logoFinal" src="static/fotos/insta_logo.png"></a>
+                    <img id="logoFinal" src="static/fotos/twitter_logo.png">
+                    <a href="https://www.linkedin.com/company/somosesales/mycompany/"><img id="logoFinal" src="static/fotos/linkedin.png"></a>
+                </ul>
+
+            </div>
+
+            <div>
+                <ul>
+                    <p class="pagSumario">Formas de pagamento</p>
+                    <img id="logoFinal" src="static/fotos/mastercard.png">
+                    <img id="logoFinal" src="static/fotos/alelo-logo.png">
+                    <img id="logoFinal" src="static/fotos/visa_logo.png">
+                    <img id="logoFinal" src="static/fotos/ticket-logo.png">
+                    
+                </ul>
+            </div>
+            <p id="copyright">&copy Copyright eSales 2022</p>
+        </footer>
+    </body>
+</html>
